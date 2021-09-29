@@ -46,8 +46,8 @@ public class WorkerLoging extends AppCompatActivity {
                     if (checkUserPass == true){
 
                         Toast.makeText(WorkerLoging.this, "Sign in successful", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), WorkerProfileView.class);
-                        startActivity(intent);
+//                        Intent intent = new Intent(getApplicationContext(), WorkerProfileView.class);
+//                        startActivity(intent);
                     }else{
                         Toast.makeText(WorkerLoging.this, "Invalid email or password!", Toast.LENGTH_SHORT).show();
                     }

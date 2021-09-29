@@ -12,12 +12,12 @@ import java.util.List;
 
 public class DBHelper extends SQLiteOpenHelper {
     // If you change the database schema, you must increment the database version.
-//    public static final int DATABASE_VERSION = 1;
-//    public static final String DATABASE_NAME = "work_byte.db";
+//    public static final int DATABASE_VERSION = 2;
+ //   public static final String DATABASE_NAME = "davinchi_design.db";
 
 
     public DBHelper(Context context) {
-        super(context, "work_byte.db", null, 1);
+        super(context, "davinchi_design.db", null, 1);
     }
 
     @Override
@@ -39,6 +39,7 @@ public class DBHelper extends SQLiteOpenHelper {
         onUpgrade(db, oldVersion, newVersion);
     }
 
+    private static final String TABLE_NAME = "Worker";
     private static final String SQL_CREATE_ENTRIES =
 
             "CREATE TABLE " + TABLE_NAME + "("
@@ -47,6 +48,7 @@ public class DBHelper extends SQLiteOpenHelper {
                     + WorkerDetails.Worker.workArea + " NOT NULL," + WorkerDetails.Worker.password + " NOT NULL,"
                     + WorkerDetails.Worker.re_password + " NOT NULL,"  + WorkerDetails.Worker.address + " NOT NULL,"
                     + WorkerDetails.Worker.experience + " NOT NULL" +")";
+
 
 
     private static final String SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS " + TABLE_NAME;
@@ -97,6 +99,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
 // Filter results WHERE "title" = 'My Title'
         String selection = WorkerDetails.Worker.email + " LIKE ?";
+        String email = null;
         String[] selectionArgs = { email };
 
 // How you want the results sorted in the resulting Cursor

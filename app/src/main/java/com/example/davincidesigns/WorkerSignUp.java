@@ -65,8 +65,8 @@ public class WorkerSignUp extends AppCompatActivity {
                             if (insert == false){
 
                                 Toast.makeText(WorkerSignUp.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getApplicationContext(), WorkerProfileView.class);
-                                startActivity(intent);
+//                                Intent intent = new Intent(getApplicationContext(), WorkerProfileView.class);
+//                                startActivity(intent);
                             }else
                                 Toast.makeText(WorkerSignUp.this, "Registration Unsuccessful", Toast.LENGTH_SHORT).show();
                         }else
