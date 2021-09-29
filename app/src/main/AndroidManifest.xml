@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DavinciDesigns">
         <activity
+            android:name=".WorkerSignUp"
+            android:exported="true" />
+        <activity
+            android:name=".WorkerLoging"
+            android:exported="true" />
+        <activity
             android:name=".StartActivity"
             android:exported="true" />
         <activity
