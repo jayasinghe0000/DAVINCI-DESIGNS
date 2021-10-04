@@ -3,15 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Y2S2/MAD/PjtUI/DAVINCI-DESIGNS/app/src/main/res/drawable-v24/buttonshape.xml" value="0.2703125" />
-        <entry key="..\:/Y2S2/MAD/PjtUI/DAVINCI-DESIGNS/app/src/main/res/drawable/buttonshape.xml" value="0.2703125" />
-        <entry key="..\:/Y2S2/MAD/PjtUI/DAVINCI-DESIGNS/app/src/main/res/drawable/buttonshape1.xml" value="0.2703125" />
-        <entry key="..\:/Y2S2/MAD/PjtUI/DAVINCI-DESIGNS/app/src/main/res/layout/activity_worker_loging.xml" value="0.25416666666666665" />
-        <entry key="..\:/Y2S2/MAD/PjtUI/DAVINCI-DESIGNS/app/src/main/res/layout/activity_worker_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/drawable-v24/buttonshape.xml" value="0.1" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/layout/activity_customer_login.xml" value="0.19375" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/layout/activity_customer_sign_up.xml" value="0.1796875" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/layout/activity_customer_signup.xml" value="0.10208333333333333" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/layout/activity_start.xml" value="0.25" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/layout/activity_worker_loging.xml" value="0.19375" />
+        <entry key="..\:/MAD project (Davinci designs)/app/src/main/res/layout/activity_worker_sign_up.xml" value="0.19375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
