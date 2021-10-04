@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DavinciDesigns">
         <activity
-            android:name=".CustomerSignup"
-            android:exported="true" />
-        <activity
-            android:name=".CustomerLogin"
-            android:exported="true" />
-        <activity
             android:name=".CustomerLoginActivity"
             android:exported="true" />
         <activity
